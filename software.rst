@@ -141,7 +141,7 @@ MATLAB (R2021a), Simulink, and selected toolboxes are available on the platform 
     <details>
         <summary>Expand to see the add-ons that are available with MATLAB</summary>
         </br>
-        
+
 .. csv-table:: 
         :header: "Add-on", "Version"
         :widths: 30, 10
@@ -174,3 +174,33 @@ MATLAB (R2021a), Simulink, and selected toolboxes are available on the platform 
     </details>
     </br>
 
+
+Supported programming languages
+-------------------------------
+
+This is a list of all the programming languages supported on the platform through either command line or 
+as interactive notebooks.
+
+.. csv-table:: 
+        :header: "Language", "Version"
+        :widths: 20, 10
+     
+        "`Python <https://www.python.org/>`_", 3.8.5  
+        "`R <https://www.r-project.org/>`_", 4.1.0
+        "`Go <https://golang.org/>`_", 1.16.3
+        "`Julia <https://julialang.org/>`_", 1.5.4
+        "`Java <https://www.java.com/en/>`_", 11.0.11
+        "`Scala <https://www.scala-lang.org/>`_", 2.12.12
+        "`PHP <https://www.php.net/>`_", 7.4.3
+        "`Ruby <https://www.ruby-lang.org/en/>`_", 2.7.0
+        "`Octave <https://www.gnu.org/software/octave/index>`_", 6.2.0
+        "`dot <https://graphviz.org/doc/info/lang.html>`_", 2.43.0
+        "`gnuplot <http://www.gnuplot.info/>`_", 5.2
+        "`*C <https://gcc.gnu.org/>`_", "GNU 9.3"
+        "`*C++ <https://gcc.gnu.org/>`_", "GNU 9.3" 
+        "`*Fortran <https://gcc.gnu.org/fortran/>`_", "GNU 9.3"
+        "`*Perl <https://www.perl.org/>`_", 5.30
+        "`*CUDA <https://en.wikipedia.org/wiki/CUDA>`_", 10.2
+
+
+\*Only available through the command line.
