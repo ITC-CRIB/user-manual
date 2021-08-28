@@ -139,32 +139,38 @@ MATLAB (R2021a), Simulink, and selected toolboxes are available on the platform 
 .. raw:: html
 
     <details>
-    <summary>Expand to see the add-ons that are available with MATLAB</summary>
+        <summary>Expand to see the add-ons that are available with MATLAB</summary>
         </br>
-        <ul>
-            <li>Computer Vision Toolbox (v10.0)</li>
-            <li>Curve Fitting Toolbox (v3.5.13)</li>
-            <li>Database Toolbox (v10.1)</li>
-            <li>Datafeed Toolbox (v6.0)</li>
-            <li>Deep Learning Toolbox (v14.2)</li>
-            <li>Financial Toolbox (v6.1)</li>
-            <li>Global Optimization Toolbox (v4.5)</li>
-            <li>Image Processing Toolbox (v11.3)</li>
-            <li>Lidar Toolbox (v1.1)</li>
-            <li> Mapping Toolbox (v5.1)</li>
-            <li>Optimization Toolbox (v9.1)</li>
-            <li>Parallel Computing Toolbox (v7.4)</li>
-            <li>Partial Differential Equation Toolbox (v3.6)</li>
-            <li>Reinforcement Learning Toolbox (v2.0)</li>
-            <li>Risk Management Toolbox (v1.9)</li>
-            <li>Signal Processing Toolbox (v8.6)</li>
-            <li>Simulink (v10.3)</li>
-            <li>Statistics and Machine Learning Toolbox (v12.1)</li>
-            <li>Symbolic Math Toolbox (v8.7)</li>
-            <li>Text Analytics Toolbox (v1.7)</li>
-            <li>UAV Toolbox (v1.1)</li>
-            <li>Wavelet Toolbox (v5.6)</li>
-        </ul>
+        
+.. csv-table:: 
+        :header: "Add-on", "Version"
+        :widths: 30, 10
+     
+        "Computer Vision Toolbox", 10.0
+        "Curve Fitting Toolbox", 3.5.13
+        "Database Toolbox", 10.1
+        "Datafeed Toolbox", 6.0
+        "Deep Learning Toolbox", 14.2
+        "Financial Toolbox", 6.1
+        "Global Optimization Toolbox", 4.5
+        "Image Processing Toolbox", 11.3
+        "Lidar Toolbox", 1.1
+        "Mapping Toolbox", 5.1
+        "Optimization Toolbox", 9.1
+        "Parallel Computing Toolbox", 7.4
+        "Partial Differential Equation Toolbox", 3.6
+        "Reinforcement Learning Toolbox", 2.0
+        "Risk Management Toolbox", 1.9
+        "Signal Processing Toolbox", 8.6
+        "Simulink", 10.3
+        "Statistics and Machine Learning Toolbox", 12.1
+        "Symbolic Math Toolbox", 8.7
+        "Text Analytics Toolbox", 1.7
+        "UAV Toolbox", 1.1
+        "Wavelet Toolbox", 5.6
+
+.. raw:: html
+
     </details>
     </br>
 
