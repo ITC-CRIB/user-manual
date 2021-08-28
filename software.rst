@@ -1,0 +1,170 @@
+Software applications/packages
+==============================
+
+This page contains information about software applications and software packages on the platform. This includes what software is
+and isn't available, how to install your own software, etc. 
+
+
+Python packages
+----------------
+
+Available packages
+^^^^^^^^^^^^^^^^^^
+
+The list of all available python packages on the platform, their versions and other information is available :doc:`here </python-packages>`.
+
+Unavailable packages
+^^^^^^^^^^^^^^^^^^^^
+
+List of the unavailable Python packages is :doc:`here </unavailable-python-packages>`.
+
+
+R packages
+----------
+
+The list of all available R packages on the platform and their versions is available :doc:`here </r-packages>`.
+
+
+System packages
+---------------
+
+Available packages
+^^^^^^^^^^^^^^^^^^
+
+The list of all available system packages installed on the platform and their version is available :doc:`here <apt-packages>`.
+
+Unavailable packages
+^^^^^^^^^^^^^^^^^^^^
+
+This is the list of the unavailable system packages.
+
++------------------+------------------------------------------------------------------------------------+------------------------------------------+---------------+
+| Software         | Description                                                                        | Reason                                   | Alternative   |
++==================+====================================================================================+==========================================+===============+
+| cuTensor         | GPU-accelerated tensor linear algebra library                                      | Binary only, not available for CUDA 10.2 |               | 
++------------------+------------------------------------------------------------------------------------+------------------------------------------+---------------+
+| NVSHMEM          | Parallel programming interface based on OpenSHMEM                                  | Requires Infiniband                      |               |
++------------------+------------------------------------------------------------------------------------+------------------------------------------+---------------+
+
+
+Why xxx is not available?
+-------------------------
+
+We are trying to make widely-used software packages and libraries available with a special focus on geo-information and earth observation. In fact, we did a survey to understand your needs and determined the list accordingly. We will periodically review this list and add more packages.
+
+If the software package you need is not available on the platform (yet), the reasons could be:
+
+* We may not be aware of it. Just `contact us <https://crib.utwente.nl/support/open.php>`_ and tell us what you need. Most probably we can make it available quickly, especially if it is an open source software.
+
+* It might be a package we are currently working on. Some packages have a long list of dependencies and they are difficult to setup, especially on a platform composed of special units (i.e. `Jetson AGX Xavier <https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-agx-xavier/>`_) which are quite different from standard equipment (e.g. servers). Probably we solve all the issues and make it available soon.
+
+* It might be a package that is not supported by the platform architecture (`Linux <https://en.wikipedia.org/wiki/Ubuntu>`_ / `ARM v8.2a <https://en.wikipedia.org/wiki/Project_Denver>`_). But there might be some alternatives available and we can help you to find them if you `contact us <https://crib.utwente.nl/support/open.php>`_.
+
+* It might be proprietary requiring a license. Currently we don't support such software packages, but this may change in the future. Please `let us know <https://crib.utwente.nl/support/open.php>`_ if you need such software products.
+
+
+Why the latest version of xxx is not available?
+-----------------------------------------------
+
+We do our best to make the latest versions of software packages and libraries available. However, occasionally certain versions of the packages are not compatible to each 
+other or not fully supported by the platform architecture (`Linux <https://en.wikipedia.org/wiki/Ubuntu>`_ / `ARM v8.2a <https://en.wikipedia.org/wiki/Project_Denver>`_) - so we have to choose. If you are not happy with the selection please `let us know <https://crib.utwente.nl/support/open.php>`_.
+
+
+Install R, Python, Julia, etc. packages
+---------------------------------------
+
+For Python, open a terminal and enter the command:
+
+``pip install or pip install ==``
+
+For R, enter the command in an interactive R notebook:
+
+``install.packages('', repos='')``
+
+For other languages, please refer to the user documentation or `contact us <https://crib.utwente.nl/support/open.php>`_.
+
+Packages are installed to your home directory (i.e. /home/jovyan). Therefore, they are permanent. But they are not updated automatically and you should keep them up to date.
+
+`Conda <https://docs.conda.io/en/latest/>`_ is not supported, but you can use `virtual environments <https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/>`_, if necessary.
+
+**Remark:** You may encounter installation errors if the package requires additional system libraries or it is not compatible with the architecture of the computing unit. Please `contact us <https://crib.utwente.nl/support/open.php>`_ if you encounter any difficulties. We can install it for you, which will make it also available to other users.
+
+**Warning:** Local package dependencies are not guaranteed after platform updates.
+
+**Warning:** Local packages might be architecture dependent.
+
+
+Install additional software applications
+----------------------------------------
+
+System-wide software packages are protected and you **cannot** install software that needs to be installed to the system directories (e.g. /usr or /usr/local). But you can install software packages and portable applications to your workspace (i.e. home, private, or shared folders). Please `contact us <https://crib.utwente.nl/support/open.php>`_ if you encounter any difficulties.
+
+**Remark:** You cannot install software by using the default package manager of Ubuntu (apt)
+
+**Remark:** Custom software are not updated automatically. You should keep them up to date.
+
+**Warning:** Custom software might be architecture dependent (e.g. arm64/aarch64 for NVIDIA Jetson AGX, amd64/x86_64 for PowerEdge). If you install a software for one architecture, it may not work with the other one.
+
+
+Install Windows applications
+----------------------------
+
+Yes, you can. Windows applications are supported through emulation by `Wine <https://www.winehq.org/>`_. They are not supported on NVIDIA Jetson AGX units, so you need to use a computing unit with Intel architecture (e.g. PowerEdge units). Because they run through emulation, Windows applications are not guaranteed to work 100%. 
+
+For Win32 applications, open a terminal and enter the command:
+
+``WINEPREFIX="$HOME/.wine32" wine``
+
+For Win64 applications, open a terminal and enter the command:
+
+``WINEPREFIX="$HOME/.wine64" wine``
+
+C Drive is located at $HOME/.wine/drive_c
+
+Please `contact us <https://crib.utwente.nl/support/open.php>`_ if you encounter any difficulties.
+
+
+Use MATLAB
+------------
+
+MATLAB (R2021a), Simulink, and selected toolboxes are available on the platform to the UT employees and students through the campus-wide license. Please follow the following steps to use MATLAB and related products:
+
+1. `Log <https://crib.utwente.nl/geospatialhub/>`_ in to the platform.
+2. Select a computing unit with **Intel** architecture (e.g. PowerEdge, Optiflex). *MATLAB is currently not supported on Jetson units.*
+3. Open remote desktop connection selecting ``Remote Desktop (NoVNC)`` icon from the launcher menu.
+4. On the remote desktop, select ``Applications > Research > MATLAB`` from to top menu
+5. Enter your **e-mail address linked to your MathWorks account** and click ``Next``. Normally this should be your UT e-mail address, but it should be activated first. You can find more information at the `UT Service Portal <https://www.utwente.nl/en/service-portal/hardware-software-network/software/matlab-simulink>`_.
+6. Enter your **MathWorks account password** and click ``Sign In``.
+
+.. raw:: html
+
+    <details>
+    <summary>Expand to see the add-ons that are available with MATLAB</summary>
+        </br>
+        <ul>
+            <li>Computer Vision Toolbox (v10.0)</li>
+            <li>Curve Fitting Toolbox (v3.5.13)</li>
+            <li>Database Toolbox (v10.1)</li>
+            <li>Datafeed Toolbox (v6.0)</li>
+            <li>Deep Learning Toolbox (v14.2)</li>
+            <li>Financial Toolbox (v6.1)</li>
+            <li>Global Optimization Toolbox (v4.5)</li>
+            <li>Image Processing Toolbox (v11.3)</li>
+            <li>Lidar Toolbox (v1.1)</li>
+            <li> Mapping Toolbox (v5.1)</li>
+            <li>Optimization Toolbox (v9.1)</li>
+            <li>Parallel Computing Toolbox (v7.4)</li>
+            <li>Partial Differential Equation Toolbox (v3.6)</li>
+            <li>Reinforcement Learning Toolbox (v2.0)</li>
+            <li>Risk Management Toolbox (v1.9)</li>
+            <li>Signal Processing Toolbox (v8.6)</li>
+            <li>Simulink (v10.3)</li>
+            <li>Statistics and Machine Learning Toolbox (v12.1)</li>
+            <li>Symbolic Math Toolbox (v8.7)</li>
+            <li>Text Analytics Toolbox (v1.7)</li>
+            <li>UAV Toolbox (v1.1)</li>
+            <li>Wavelet Toolbox (v5.6)</li>
+        </ul>
+    </details>
+    </br>
+
