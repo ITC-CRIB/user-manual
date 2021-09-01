@@ -55,7 +55,7 @@ Yes, you can. The users, who use the platform for deep learning purposes, usuall
 .. tip:: 
     If you cannot ensure connection from your own computer, connect to a UT computer by remote desktop and use that computer to connect to the platform.
 
-.. tip:: 
+.. warning:: 
     For long-duration tasks do not trust service availability and implement precautionary measures (e.g. checkpoints).
 
 Please `contact us <https://crib.utwente.nl/support/open.php>`_ for specific needs.
