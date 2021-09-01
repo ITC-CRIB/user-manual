@@ -29,3 +29,15 @@ Your connection to the platform is secure (i.e. encrypted) and has **A rating** 
 Your working environment is created on demand and isolated from the others which are active on the platform. Therefore, your assets (e.g. files, documents, images, etc.) are only accessible to you.
 
 The platform uses University of Twente `LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>`_ service to authenticate your credentials also through a secure connection and does not store your password.
+
+
+Run multiple platform instances at the same time
+------------------------------------------------
+
+A dedicated container is spawned for you when you first login. When you login again while you are logged in (e.g. from another browser window or another machine) you connect to the same container. Therefore, it is not possible to have two different platform instances concurrently.
+
+Please `contact us <https://crib.utwente.nl/support/open.php>`_ if you need more instances, e.g. to finish your thesis study. We can create an external account for you which will allow you to use a second instance.
+
+**Suggestion:** Profile your code to understand resource usage and bottlenecks. This may help you to use your instance efficiently.
+
+**Suggestion:** Consider using a distributed computing framework (e.g. `Dask <https://dask.org/>`_) to improve the computing performance.
