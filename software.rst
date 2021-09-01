@@ -87,11 +87,14 @@ Packages are installed to your home directory (i.e. /home/jovyan). Therefore, th
 
 `Conda <https://docs.conda.io/en/latest/>`_ is not supported, but you can use `virtual environments <https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/>`_, if necessary.
 
-**Remark:** You may encounter installation errors if the package requires additional system libraries or it is not compatible with the architecture of the computing unit. Please `contact us <https://crib.utwente.nl/support/open.php>`_ if you encounter any difficulties. We can install it for you, which will make it also available to other users.
+.. note::
+        You may encounter installation errors if the package requires additional system libraries or it is not compatible with the architecture of the computing unit. Please `contact us <https://crib.utwente.nl/support/open.php>`_ if you encounter any difficulties. We can install it for you, which will make it also available to other users.
 
-**Warning:** Local package dependencies are not guaranteed after platform updates.
+.. warning::
+        Local package dependencies are not guaranteed after platform updates.
 
-**Warning:** Local packages might be architecture dependent.
+.. warning::
+        Local packages might be architecture dependent.
 
 
 Install additional software applications
@@ -99,11 +102,14 @@ Install additional software applications
 
 System-wide software packages are protected and you **cannot** install software that needs to be installed to the system directories (e.g. /usr or /usr/local). But you can install software packages and portable applications to your workspace (i.e. home, private, or shared folders). Please `contact us <https://crib.utwente.nl/support/open.php>`_ if you encounter any difficulties.
 
-**Remark:** You cannot install software by using the default package manager of Ubuntu (apt)
+.. note::
+        You cannot install software by using the default package manager of Ubuntu (apt)
 
-**Remark:** Custom software are not updated automatically. You should keep them up to date.
+.. note::
+        Custom software are not updated automatically. You should keep them up to date.
 
-**Warning:** Custom software might be architecture dependent (e.g. arm64/aarch64 for NVIDIA Jetson AGX, amd64/x86_64 for PowerEdge). If you install a software for one architecture, it may not work with the other one.
+.. warning::
+        Custom software might be architecture dependent (e.g. arm64/aarch64 for NVIDIA Jetson AGX, amd64/x86_64 for PowerEdge). If you install a software for one architecture, it may not work with the other one.
 
 
 Install Windows applications
