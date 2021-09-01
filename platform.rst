@@ -1,3 +1,5 @@
+.. include:: .special.rst
+
 Platform
 =========
 
@@ -53,3 +55,35 @@ Yes, you can. The users, who use the platform for deep learning purposes, usuall
 **Suggestion:** For long-duration tasks do not trust service availability and implement precautionary measures (e.g. checkpoints).
 
 Please `contact us <https://crib.utwente.nl/support/open.php>`_ for specific needs.
+
+
+Edit a notebook collaboratively in real time
+--------------------------------------------
+
+Starting with `JupyterLab 3.1 <https://jupyterlab.readthedocs.io/en/stable/getting_started/changelog.html#id26>`_, file documents and notebooks `support collaborative editing <https://jupyterlab.readthedocs.io/en/stable/user/rtc.html>`_ and this feature is enabled on the platform.
+
+The collaborative editing feature enables collaboration in real-time between multiple clients **without user roles**. If you share the URL of a document to other users, they will have access to **the same environment you are working on** and they can write and execute cells. Moreover, you can **see the cursors from other users** with an anonymous username.
+
+This feature is quite new and currently requires some manual steps, which are listed below:
+
+1. `Log in <https://crib.utwente.nl/geospatialhub/>`_ to the platform.
+2. On computing unit selection page, click Token link at the top menu.
+3. Click ``Request new API Token`` button.
+4. Copy the API token provided and paste it somewhere temporarily (e.g. Notepad).
+5. Click Home link at the top menu.
+6. Select a computing unit.
+7. Locate the notebook you want to edit collaboratively in the file browser sidebar.
+8. Right click on the file and select ``Copy Sharable Link`` menu.
+9. Paste the link where you pasted API token previously and modify it by adding the token as a URI parameter. Example:
+
+API Token:
+**9f77c98cf27e492f40b8fc15dfcaccfa**
+
+Link: **https://crib.utwente.nl/geospatialhub/user/jovyan/doc/tree/example.ipynb**
+
+Modified link: **https://crib.utwente.nl/geospatialhub/user/jovyan/doc/tree/example.ipynb?token=9f77c98cf27e492f40b8fc15dfcaccfa**
+
+10.  Share the modified link with your collaborators.
+
+.. warning::
+    The API token allows other users to access not only the document you selected, but your account in general. Therefore, they can access all other documents, including your private files. Be careful while using this feature.
