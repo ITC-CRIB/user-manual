@@ -19,3 +19,13 @@ The default interface of the platform is `JupyterLab <https://jupyter.org/>`_, w
 If you are new to JupyterLab (or Jupyter notebooks in general), a good starting point is its `official documentation <https://jupyterlab.readthedocs.io/en/stable/index.html>`_, which includes a detailed user guide. There is also a nice and short (~ 6 min.) `introduction video <https://www.youtube.com/watch?v=A5YyoCKxEOU>`_ available.
 
 For specific components integrated to the platform (e.g. `Code Server <https://github.com/cdr/code-server>`_), please refer to their own documentation.
+
+
+Platform security
+-----------------
+
+Your connection to the platform is secure (i.e. encrypted) and has **A rating** from `SSL Labs <https://www.ssllabs.com/>`_.
+
+Your working environment is created on demand and isolated from the others which are active on the platform. Therefore, your assets (e.g. files, documents, images, etc.) are only accessible to you.
+
+The platform uses University of Twente `LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>`_ service to authenticate your credentials also through a secure connection and does not store your password.
