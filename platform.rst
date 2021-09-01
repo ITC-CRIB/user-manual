@@ -41,3 +41,15 @@ Please `contact us <https://crib.utwente.nl/support/open.php>`_ if you need more
 **Suggestion:** Profile your code to understand resource usage and bottlenecks. This may help you to use your instance efficiently.
 
 **Suggestion:** Consider using a distributed computing framework (e.g. `Dask <https://dask.org/>`_) to improve the computing performance.
+
+
+Run long duration tasks
+-----------------------
+
+Yes, you can. The users, who use the platform for deep learning purposes, usually have tasks that last *several days.* However, you should be connected to the platform during the computation period, i.e. your web browser should be open all the time.
+
+**Suggestion:** If you cannot ensure connection from your own computer, connect to a UT computer by remote desktop and use that computer to connect to the platform.
+
+**Suggestion:** For long-duration tasks do not trust service availability and implement precautionary measures (e.g. checkpoints).
+
+Please `contact us <https://crib.utwente.nl/support/open.php>`_ for specific needs.
