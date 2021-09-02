@@ -13,3 +13,4 @@ Welcome to Geospatial computing platform's user manual's documentation!
    platform
    software
    whats-new.md
+   work-in-progress.md
