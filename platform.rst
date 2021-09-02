@@ -103,3 +103,51 @@ Modified link: **https://crib.utwente.nl/geospatialhub/user/jovyan/doc/tree/exam
 
 .. warning::
     The API token allows other users to access not only the document you selected, but your account in general. Therefore, they can access all other documents, including your private files. Be careful while using this feature.
+
+
+Delete a non-empty folder
+-------------------------
+
+This guide applies to situations when a non-empty folder has to be deleted from the system. Since this
+functionality is not natively supported in JupyterLab yet, it can be done in one of two ways, either using
+remote desktop or the terminal. Here, we provide step-by-step instructions on how to do this both ways.
+
+.. warning::
+    Deleted files cannot be recovered. Please be careful while deleting files and folders.
+
+
+Using remote desktop
+^^^^^^^^^^^^^^^^^^^^
+
+1. Open remote desktop application
+
+To open remote desktop, firstly, click on ``Application`` which is located in the top tool bar,
+and then select ``Remote Desktop``. You should be presented with a desktop view.
+
+2. Locate your folder and delete it
+
+To open the file manager, double click on the ``Home`` folder you see on the desktop. From there
+on navigate to the folder you wish to delete. Right click on the folder and select ``Delete``.
+
+
+Using the terminal
+^^^^^^^^^^^^^^^^^^
+
+1. Open the terminal
+
+To open the terminal, firstly, click on ``File`` which is located in the top tool bar, then hover
+over ``New`` and finally select ``Terminal``. Now, you should be able to see the terminal.
+
+2. Locate your folder
+
+To interact with the terminal you must write commands. Firstly, to see the files and folders in
+the folder you are currently in, write the command ``ls``. Then, to
+move to one of the folders you see on the screen after ``ls`` command, use the command ``cd folder``
+replacing *folder* with the name of the folder you want to move to. If you want to move backwards
+from a folder, use the command ``cd ..``. Using the two aforementioned commands, navigate to the folder
+that contains the folder you wish to delete.
+
+3. Delete the folder
+
+Before you delete your folder, use the ``ls`` command to make sure you see your folder listed there.
+Then, use the command ``rm -rf folder`` replacing *folder* with the name of your folder.
