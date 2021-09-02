@@ -1,5 +1,3 @@
-.. include:: .special.rst
-
 Platform
 =========
 

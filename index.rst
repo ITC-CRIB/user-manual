@@ -10,7 +10,7 @@ Welcome to Geospatial computing platform's user manual's documentation!
    :maxdepth: 1
    :caption: Contents:
 
-   platform
-   software
-   whats-new.md
-   work-in-progress.md
+   pages/platform
+   pages/software
+   pages/whats-new.md
+   pages/work-in-progress.md
