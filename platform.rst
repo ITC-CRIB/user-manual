@@ -151,3 +151,24 @@ that contains the folder you wish to delete.
 
 Before you delete your folder, use the ``ls`` command to make sure you see your folder listed there.
 Then, use the command ``rm -rf folder`` replacing *folder* with the name of your folder.
+
+
+Jupyterlab extensions
+---------------------
+
+Available extensions
+^^^^^^^^^^^^^^^^^^^^
+
+The list of all available Jupyterlab extensions is available :doc:`here </jupyterlab-extensions>`.
+
+Unavailable extensions
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table:: 
+        :header: "Extension", "Description", "Version", "Reason", "Alternative"
+        :widths: 10, 10, 10, 10 ,10
+     
+        "jupyterlab_nvdashboard", "A JupyterLab extension for displaying GPU usage dashboards", 0.6.0, "Requires NVML (not supported)"
+        "jupyterlab-hdf5", "A Jupyter Notebook server extension that provides APIs for fetching hdf5 contents and data",	0.6.0,	"Does not support JupyterLab 3.x"
+        "jupyterlab-system-monitor", "Extension to display system metrics",	0.6.0, "Disabled due to performance issues", "Terminal > top"
+        "jupyterlab-topbar-extension", "Generic extension to expose the top bar area", 0.5.0, "Disabled due to performance issues",	"Terminal > top"
