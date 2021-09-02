@@ -209,4 +209,4 @@ as interactive notebooks.
         "`*CUDA <https://en.wikipedia.org/wiki/CUDA>`_", 10.2
 
 
-\*Only available through the command line.
+\*: Only available through the command line.
