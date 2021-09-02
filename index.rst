@@ -7,8 +7,9 @@ Welcome to Geospatial computing platform's user manual's documentation!
 =======================================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    platform
    software
+   whats-new.md
