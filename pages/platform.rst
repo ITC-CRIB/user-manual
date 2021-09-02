@@ -157,7 +157,7 @@ Jupyterlab extensions
 Available extensions
 ^^^^^^^^^^^^^^^^^^^^
 
-The list of all available Jupyterlab extensions is available :doc:`here </jupyterlab-extensions>`.
+The list of all available Jupyterlab extensions is available :doc:`here </pages/jupyterlab-extensions>`.
 
 Unavailable extensions
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -175,4 +175,4 @@ Unavailable extensions
 Nodes on the platform
 ---------------------
 
-The list of all available platform computing nodes is available :doc:`here </nodes>`.
+The list of all available platform computing nodes is available :doc:`here </pages/nodes>`.

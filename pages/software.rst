@@ -11,18 +11,18 @@ Python packages
 Available packages
 ^^^^^^^^^^^^^^^^^^
 
-The list of all available python packages on the platform, their versions and other information is available :doc:`here </python-packages>`.
+The list of all available python packages on the platform, their versions and other information is available :doc:`here </pages/python-packages>`.
 
 Unavailable packages
 ^^^^^^^^^^^^^^^^^^^^
 
-List of the unavailable Python packages is :doc:`here </unavailable-python-packages>`.
+List of the unavailable Python packages is :doc:`here </pages/unavailable-python-packages>`.
 
 
 R packages
 ----------
 
-The list of all available R packages on the platform and their versions is available :doc:`here </r-packages>`.
+The list of all available R packages on the platform and their versions is available :doc:`here </pages/r-packages>`.
 
 
 System packages
@@ -31,12 +31,10 @@ System packages
 Available packages
 ^^^^^^^^^^^^^^^^^^
 
-The list of all available system packages installed on the platform and their version is available :doc:`here <apt-packages>`.
+The list of all available system packages installed on the platform and their versions is available :doc:`here </pages/apt-packages>`.
 
 Unavailable packages
 ^^^^^^^^^^^^^^^^^^^^
-
-This is the list of the unavailable system packages.
 
 +------------------+------------------------------------------------------------------------------------+------------------------------------------+---------------+
 | Software         | Description                                                                        | Reason                                   | Alternative   |

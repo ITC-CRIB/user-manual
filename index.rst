@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Geospatial computing platform's user manual's documentation!
+Welcome to the Geospatial computing platform's user manual!
 =======================================================================
+
+This manual contains various information about the platform, such as how to use it, what to look out for, what is possible and what are the limitations.
 
 .. toctree::
    :maxdepth: 1
