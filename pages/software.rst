@@ -113,7 +113,7 @@ System-wide software packages are protected and you **cannot** install software 
 Install Windows applications
 ----------------------------
 
-Yes, you can. Windows applications are supported through emulation by `Wine <https://www.winehq.org/>`_. They are not supported on NVIDIA Jetson AGX units, so you need to use a computing unit with Intel architecture (e.g. PowerEdge units). Because they run through emulation, Windows applications are not guaranteed to work 100%. 
+Windows applications are supported through emulation by `Wine <https://www.winehq.org/>`_. They are not supported on NVIDIA Jetson AGX units, so you need to use a computing unit with Intel architecture (e.g. PowerEdge units). Because they run through emulation, Windows applications are not guaranteed to work 100%. 
 
 For Win32 applications, open a terminal and enter the command:
 
