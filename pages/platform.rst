@@ -60,13 +60,13 @@ Running long duration tasks is possbile. The users, who use the platform for dee
 Disconnect from the platform for a short period while keeping running tasks alive
 ---------------------------------------------------------------------------------
 
-If you log out from the platform ``(File > Log out)``, your container is terminated. Hence, all running tasks are also terminated. But if you simply **close the browser window**, the platform keeps your container and all active tasks running for *one hour*. If you re-connect within this one-hour period, you connect to the same container.
-
-.. tip::
-    Use a file-based output mechanism (i.e. logging) to backup standard output whenever possible.
+If you log out from the platform ``File > Log out``, your container is terminated. Hence, all running tasks are also terminated. But if you simply **close the browser window**, the platform keeps your container and all active tasks running for *one hour*. If you re-connect within this one-hour period, you connect to the same container.
 
 .. warning::
     When you close the browser window, running tasks lose their output streams. Therefore, although they continue to run, you won't see their output after re-connecting to the same container.
+
+.. tip::
+    Use a file-based output mechanism (i.e. logging) to backup standard output whenever possible.
 
 
 Edit a notebook collaboratively in real time
