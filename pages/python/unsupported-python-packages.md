@@ -1,6 +1,5 @@
-# Unsupported Python Packages
-
-This list contains the Python packages unavailable on the platform, reasons why they aren't available as well as recommended alternatives.
+Unsupported packages
+====================
 
 | Package          | Description                                                                        | Reason                                | Alternative   |
 |------------------|------------------------------------------------------------------------------------|---------------------------------------|---------------|

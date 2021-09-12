@@ -1,6 +1,7 @@
-# System Packages
+Supported packages
+=========================
 
-This list contains the [apt](https://ubuntu.com/server/docs/package-management) packages installed on the platform.
+This table contains the [apt](https://ubuntu.com/server/docs/package-management) packages installed on the platform.
 
 | Package                          | Version                                    |
 |:---------------------------------|:-------------------------------------------|

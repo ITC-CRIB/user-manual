@@ -4,45 +4,16 @@ Software applications/packages
 This page contains information about software applications and software packages on the platform. This includes what software is
 and isn't available, how to install your own software, etc. 
 
+Supported software packages
+----------------------------------------
 
-Python packages
-----------------
+.. toctree::
+   :maxdepth: 3
 
-Available packages
-^^^^^^^^^^^^^^^^^^
-
-The list of all available python packages on the platform, their versions and other information is available :doc:`here </pages/python-packages>`.
-
-Unavailable packages
-^^^^^^^^^^^^^^^^^^^^
-
-List of the unavailable Python packages is :doc:`here </pages/unavailable-python-packages>`.
-
-
-R packages
-----------
-
-The list of all available R packages on the platform and their versions is available :doc:`here </pages/r-packages>`.
-
-
-System packages
----------------
-
-Available packages
-^^^^^^^^^^^^^^^^^^
-
-The list of all available system packages installed on the platform and their versions is available :doc:`here </pages/apt-packages>`.
-
-Unavailable packages
-^^^^^^^^^^^^^^^^^^^^
-
-+------------------+------------------------------------------------------------------------------------+------------------------------------------+---------------+
-| Software         | Description                                                                        | Reason                                   | Alternative   |
-+==================+====================================================================================+==========================================+===============+
-| cuTensor         | GPU-accelerated tensor linear algebra library                                      | Binary only, not available for CUDA 10.2 |               | 
-+------------------+------------------------------------------------------------------------------------+------------------------------------------+---------------+
-| NVSHMEM          | Parallel programming interface based on OpenSHMEM                                  | Requires Infiniband                      |               |
-+------------------+------------------------------------------------------------------------------------+------------------------------------------+---------------+
+   python/index
+   r-packages
+   system-packages/index
+   jupyterlab-extensions/index
 
 
 Why xxx is not available?
@@ -177,6 +148,19 @@ MATLAB (R2021a), Simulink, and selected toolboxes are available on the platform 
 
     </details>
     </br>
+
+
+
+Install JupyterLab on Windows
+-----------------------------
+
+This guide shows step-by-step instructions on how to install JupyterLab on your own Windows computer. 
+
+.. toctree::
+   :maxdepth: 3
+
+   jupyterlab-install-guide/index
+
 
 
 Supported programming languages

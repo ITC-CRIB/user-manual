@@ -1,6 +1,5 @@
-# JupyterLab Extensions
-
-This page contains the list of all available Jupyterlab extensions available on the platform.
+Supported extensions
+=====================
 
 | Name                                | Version | Description                                                                    |
 |:------------------------------------|:--------|:-------------------------------------------------------------------------------|

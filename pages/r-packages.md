@@ -1,6 +1,5 @@
-# R Packages
-
-This is a list of all available R packages on the platform and their respective versions.
+Supported R Packages
+====================
 
 | Package            | Version    |
 |:-------------------|:-----------|

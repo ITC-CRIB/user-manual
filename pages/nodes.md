@@ -1,6 +1,7 @@
-# Platform Nodes
+Platform computing nodes
+========================
 
-This page contains the list of all available computing nodes on the platform.
+This table contains all available computing nodes on the platform.
 
 | Name             | System Update | Maintenance | Linux Kernel  | System                     | Docker  |
 |------------------|---------------|-------------|---------------|----------------------------|---------|
