@@ -1,12 +1,11 @@
-
-Training Resources for Geospatial Computing
+Training resources for geospatial computing
 ===========================================
 
 This is a curated list of training resources for popular packages that are used in geospatial computing. The current list primarily includes Python packages, but it will be updated to include packages from other languages, e.g. R. If you need resources for any particular package, please `contact us <https://crib.utwente.nl/support/open.php>`_ so we can update the list accordingly. 
 
 Feel free to contribute any resources you find useful for geospatial research, education, and training purposes.
 
-Common Resources for Geospatial Computing and Earth Observation
+Common Resources for geospatial computing and Earth observation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 These are links to resources that have useful information and tutorials on geospatial computing and Earth observation. 
