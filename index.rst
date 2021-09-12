@@ -16,3 +16,4 @@ This manual contains various information about the platform, such as how to use 
    pages/software
    pages/whats-new.md
    pages/work-in-progress.md
+   pages/training-resources/index
