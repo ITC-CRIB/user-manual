@@ -1,8 +1,6 @@
 Install JupyterLab on Windows
 =============================
 
-This guide shows step-by-step instructions on how to install JupyterLab on your own Windows computer. 
-
 .. note:: Installation steps assume that you have administrator rights on your system. 
     If you don’t have administrator rights, follow the steps without selecting “for all users” 
     options and install software packages to your user account only.
