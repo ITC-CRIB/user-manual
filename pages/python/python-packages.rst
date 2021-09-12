@@ -2,8 +2,17 @@ Supported packages
 ==================
 
 .. raw:: html
-
-   <div id="python-package-table"> 
+  
+   <script type="text/javascript">
+      window.onload = function() {
+          let background  = document.getElementsByClassName("wy-nav-content")
+              
+          if (background.length > 0) {
+              background[0].style.maxWidth = "none"
+              background[0].style.paddingRight = "248px"
+          }  
+      }
+  </script>  
 
 
 .. list-table::
