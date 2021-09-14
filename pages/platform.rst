@@ -69,6 +69,30 @@ If you log out from the platform ``File > Log out``, your container is terminate
     Use a file-based output mechanism (i.e. logging) to backup standard output whenever possible.
 
 
+Services
+--------
+These are the services available on the platform.
+
+Mapping
+^^^^^^^
+- Geoserver (2.19.2)
+
+Database
+^^^^^^^^
+- PostgreSQL (12.7)
+- pgAdmin (5.5)
+- MariaDB (10.6.3)
+
+Open science
+^^^^^^^^^^^^
+- Gitea (1.14.5) 
+
+Monitoring
+^^^^^^^^^^
+- Prometheus (2.28.1) 
+- Grafana (8.0.6)
+
+
 Edit a notebook collaboratively in real time
 --------------------------------------------
 
