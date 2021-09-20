@@ -29,6 +29,7 @@ author = 'The Center of Expertise on Big Geodata Science'
 # ones.
 extensions = [
     'myst_parser',
+    'nbsphinx'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

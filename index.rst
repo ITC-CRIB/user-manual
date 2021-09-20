@@ -14,6 +14,7 @@ This manual contains various information about the platform, such as how to use 
 
    pages/platform
    pages/software
+   pages/how-to-dask.ipynb
    pages/training-resources/index
    pages/shared-workspace-manual/index
    pages/whats-new.md
