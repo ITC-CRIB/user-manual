@@ -1,5 +1,8 @@
-Supported packages
-==================
+.. role:: raw-html-m2r(raw)
+   :format: html
+
+Python Packages
+===============
 
 .. raw:: html
   
@@ -12,8 +15,7 @@ Supported packages
               background[0].style.paddingRight = "248px"
           }  
       }
-  </script>  
-
+  </script>
 
 .. list-table::
    :header-rows: 1
@@ -35,7 +37,7 @@ Supported packages
      - Matrices describing affine transformation of the plane.
      - https://github.com/sgillies/affine
    * - aiobotocore
-     - 1.4.0
+     - 1.4.1
      - Async client for aws services using botocore and aiohttp
      - https://github.com/aio-libs/aiobotocore
    * - aiohttp
@@ -75,7 +77,7 @@ Supported packages
      - ANTLR 4.7.2 runtime for Python 3.6.3
      - http://www.antlr.org
    * - anyio
-     - 3.3.0
+     - 3.3.1
      - High level compatibility layer for multiple asynchronous event loop implementations
      - -
    * - AnyQt
@@ -91,19 +93,27 @@ Supported packages
      - ArcGIS API for Python
      - https://developers.arcgis.com/python/
    * - argon2-cffi
-     - 20.1.0
+     - 21.1.0
      - The secure Argon2 password hashing algorithm.
      - https://argon2-cffi.readthedocs.io/
    * - asciitree
      - 0.3.3
      - Draws ASCII trees.
      - http://github.com/mbr/asciitree
+   * - ase
+     - 3.22.0
+     - Atomic Simulation Environment
+     - https://wiki.fysik.dtu.dk/ase
+   * - astor
+     - 0.8.1
+     - Read/rewrite/write Python ASTs
+     - https://github.com/berkerpeksag/astor
    * - astrodendro
      - 0.2.0
      - Python package for computation of astronomical dendrograms
      - http://www.dendrograms.org
    * - astroid
-     - 2.7.2
+     - 2.7.3
      - An abstract syntax tree for Python with inference support.
      - https://github.com/PyCQA/astroid
    * - astropy
@@ -130,6 +140,10 @@ Supported packages
      - 20.2.0
      - Self-service finite-state machines for the programmer on the go.
      - https://github.com/glyph/Automat
+   * - autopage
+     - 0.4.0
+     - A library to provide automatic paging for console output
+     - https://github.com/zaneb/autopage
    * - autopep8
      - 1.5.5
      - A tool that automatically formats Python code to conform to the PEP 8 style guide
@@ -155,15 +169,15 @@ Supported packages
      - Bayesian tests for comparison of classifiers
      - https://github.com/janezd/baycomp.git
    * - beautifulsoup4
-     - 4.9.3
+     - 4.10.0
      - Screen-scraping library
      - http://www.crummy.com/software/BeautifulSoup/bs4/
    * - black
-     - 21.7b0
+     - 21.8b0
      - The uncompromising code formatter.
      - https://github.com/psf/black
    * - bleach
-     - 4.0.0
+     - 4.1.0
      - An easy safelist-based HTML-sanitizing tool.
      - https://github.com/mozilla/bleach
    * - blessings
@@ -267,7 +281,7 @@ Supported packages
      - An extension module for click to enable registering CLI commands via setuptools entry-points.
      - https://github.com/click-contrib/click-plugins
    * - cliff
-     - 3.8.0
+     - 3.9.0
      - Command Line Interface Formulation Framework
      - https://docs.openstack.org/cliff/latest/
    * - cligj
@@ -275,7 +289,7 @@ Supported packages
      - Click params for commmand line interfaces to GeoJSON
      - https://github.com/mapbox/cligj
    * - cloudpickle
-     - 1.6.0
+     - 2.0.0
      - Extended pickling support for Python objects
      - https://github.com/cloudpipe/cloudpickle
    * - clustering-geodata-cubes
@@ -299,7 +313,7 @@ Supported packages
      - Collection of perceptually uniform colormaps
      - https://colorcet.holoviz.org
    * - colorlog
-     - 5.0.1
+     - 6.4.1
      - Add colours to the output of Python's logging module.
      - https://github.com/borntyping/python-colorlog
    * - colour
@@ -307,7 +321,7 @@ Supported packages
      - converts and manipulates various color representation (HSL, RVB, web, X11, ...)
      - http://github.com/vaab/colour
    * - comet-ml
-     - 3.14.1
+     - 3.15.4
      - Supercharging Machine Learning
      - https://www.comet.ml
    * - commonmark
@@ -335,11 +349,11 @@ Supported packages
      - High performance approximate and streaming algorithms
      - https://github.com/jcrist/crick
    * - cryptography
-     - 3.4.7
+     - 3.4.8
      - cryptography is a package which provides cryptographic recipes and primitives to Python developers.
      - https://github.com/pyca/cryptography
    * - cupy
-     - 9.3.0
+     - 9.4.0
      - CuPy: NumPy & SciPy for GPU
      - https://cupy.dev/
    * - cycler
@@ -354,8 +368,12 @@ Supported packages
      - 0.29.24
      - The Cython compiler for writing C extensions for the Python language.
      - http://cython.org/
+   * - cytoolz
+     - 0.11.0
+     - Cython implementation of Toolz: High performance functional utilities
+     - https://github.com/pytoolz/cytoolz
    * - dask
-     - 2021.8.1
+     - 2021.9.0
      - Parallel PyData with Task Scheduling
      - https://github.com/dask/dask/
    * - dask-gateway
@@ -399,11 +417,11 @@ Supported packages
      - A data description language.
      - http://datashape.readthedocs.org/en/latest/
    * - debugpy
-     - 1.4.1
+     - 1.4.3
      - An implementation of the Debug Adapter Protocol for Python
      - https://aka.ms/debugpy
    * - decorator
-     - 5.0.9
+     - 5.1.0
      - Decorators for Humans
      - https://github.com/micheles/decorator
    * - deepgeo
@@ -431,7 +449,7 @@ Supported packages
      - serialize all of python
      - https://github.com/uqfoundation/dill
    * - distributed
-     - 2021.8.1
+     - 2021.9.0
      - Distributed scheduler for Dask
      - https://distributed.dask.org
    * - distro
@@ -447,7 +465,7 @@ Supported packages
      - DNS toolkit
      - http://www.dnspython.org
    * - docker
-     - 5.0.0
+     - 5.0.2
      - A Python library for the Docker Engine API.
      - https://github.com/docker/docker-py
    * - docopt
@@ -467,11 +485,11 @@ Supported packages
      - Writing dot language and render in jupyter.
      - https://github.com/laixintao/jupyter-dot-kernel
    * - dulwich
-     - 0.20.24
+     - 0.20.25
      - Python Git Library
      - https://www.dulwich.io/
    * - earthengine-api
-     - 0.1.279
+     - 0.1.282
      - Earth Engine Python API
      - http://code.google.com/p/earthengine-api/
    * - eccodes
@@ -507,7 +525,7 @@ Supported packages
      - Data access for EODAG
      - https://github.com/CS-SI/eodag-cube
    * - eodag-sentinelsat
-     - 0.4.0
+     - 0.4.1
      - Sentinelsat plugin to EODAG (https://github.com/CS-SI/eodag)
      - https://github.com/CS-SI/eodag-sentinelsat
    * - eofs
@@ -527,7 +545,7 @@ Supported packages
      - An implementation of lxml.xmlfile for the standard library
      - https://foss.heptapod.net/openpyxl/et_xmlfile
    * - everett
-     - 2.0.0
+     - 2.0.1
      - Configuration library for Python applications
      - https://github.com/willkg/everett
    * - extension-helpers
@@ -619,7 +637,7 @@ Supported packages
      - Freetype python bindings
      - https://github.com/rougier/freetype-py
    * - fsspec
-     - 2021.7.0
+     - 2021.8.1
      - File-system specification
      - http://github.com/intake/filesystem_spec
    * - future
@@ -631,7 +649,7 @@ Supported packages
      - Python AST that abstracts the underlying Python version
      - https://github.com/serge-sans-paille/gast/
    * - gcsfs
-     - 2021.7.0
+     - 2021.8.1
      - Convenient Filesystem interface over GCS
      - https://github.com/dask/gcsfs
    * - GDAL
@@ -643,15 +661,15 @@ Supported packages
      - Google Earth Engine Batch Assets Manager with Addons
      - https://github.com/samapriya/gee_asset_manager_addon
    * - geemap
-     - 0.8.18
+     - 0.9.0
      - A Python package for interactive mapping using Google Earth Engine and ipyleaflet
      - https://github.com/giswqs/geemap
    * - geetools
-     - 0.6.11
+     - 0.6.14
      - Set of tools to use in Google Earth Engine Python API
      - https://github.com/gee-community/gee_tools
    * - GeoAlchemy2
-     - 0.9.3
+     - 0.9.4
      - Using SQLAlchemy with Spatial Databases
      - https://geoalchemy-2.readthedocs.io/en/latest/
    * - geocoder
@@ -703,7 +721,7 @@ Supported packages
      - Python Git Library
      - https://github.com/gitpython-developers/GitPython
    * - glue-core
-     - 1.2.0
+     - 1.2.1
      - Multidimensional data visualization across files
      - http://glueviz.org
    * - glue-vispy-viewers
@@ -739,7 +757,7 @@ Supported packages
      - Google Authentication Library: httplib2 transport
      - https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2
    * - google-auth-oauthlib
-     - 0.4.5
+     - 0.4.6
      - Google Authentication Library
      - https://github.com/GoogleCloudPlatform/google-auth-library-python-oauthlib
    * - google-cloud-bigquery
@@ -751,7 +769,7 @@ Supported packages
      - Google Cloud API client core library
      - https://github.com/googleapis/python-cloud-core
    * - google-cloud-storage
-     - 1.42.0
+     - 1.42.1
      - Google Cloud Storage API client library
      - https://github.com/googleapis/python-storage
    * - google-crc32c
@@ -871,7 +889,7 @@ Supported packages
      - Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
      - https://github.com/imageio/imageio
    * - imageio-ffmpeg
-     - 0.4.4
+     - 0.4.5
      - FFMPEG wrapper for Python
      - https://github.com/imageio/imageio-ffmpeg
    * - imagesize
@@ -883,7 +901,7 @@ Supported packages
      - Image augmentation library for deep neural networks
      - https://github.com/aleju/imgaug
    * - importlib-metadata
-     - 4.6.4
+     - 4.8.1
      - Read metadata from Python packages
      - https://github.com/python/importlib_metadata
    * - importlib-resources
@@ -935,7 +953,7 @@ Supported packages
      - xarray plugins for Intake
      - https://github.com/ContinuumIO/intake-xarray
    * - ipydatagrid
-     - 1.1.2
+     - 1.1.5
      - Fast Datagrid widget for the Jupyter Notebook and JupyterLab
      - https://github.com/bloomberg/ipydatagrid
    * - ipyevents
@@ -947,7 +965,7 @@ Supported packages
      - Interactive widgets for topographic data analysis and modelling in Jupyter notebooks.
      - https://github.com/fastscape-lem/ipyfastscape
    * - ipyfilechooser
-     - 0.4.4
+     - 0.5.0
      - Python file chooser widget for use in Jupyter/IPython in conjunction with ipywidgets
      - https://github.com/crahan/ipyfilechooser
    * - ipygany
@@ -955,7 +973,7 @@ Supported packages
      - Scientific Visualization in Jupyter
      - https://github.com/martinRenou/ipygany
    * - ipykernel
-     - 6.2.0
+     - 6.4.1
      - IPython Kernel for Jupyter
      - https://ipython.org
    * - ipyleaflet
@@ -979,7 +997,7 @@ Supported packages
      - A Jupyter widget library for dynamically creating spinning activity indicators
      - https://github.com/davidbrochart/ipyspin
    * - ipython
-     - 7.26.0
+     - 7.27.0
      - IPython: Productive Interactive Computing
      - https://ipython.org
    * - ipython-autotime
@@ -999,7 +1017,7 @@ Supported packages
      - A Jupyter Widget Library for accessing the server's URL
      - https://github.com/davidbrochart/ipyurl
    * - ipywidgets
-     - 7.6.3
+     - 7.6.4
      - IPython HTML widgets for Jupyter
      - http://ipython.org
    * - iris-sample-data
@@ -1079,7 +1097,7 @@ Supported packages
      - Jupyter metapackage. Install all the Jupyter components in one go.
      - http://jupyter.org
    * - jupyter-archive
-     - 3.0.1
+     - 3.0.3
      - A Jupyterlab extension to make, download and extract archive files.
      - https://github.com/jupyterlab-contrib/jupyter-archive/
    * - jupyter-bokeh
@@ -1111,7 +1129,7 @@ Supported packages
      - Jupyter Packaging Utilities.
      - http://jupyter.org
    * - jupyter-server
-     - 1.10.2
+     - 1.11.0
      - The backend—i.e. core services, APIs, and REST endpoints—to Jupyter web applications.
      - https://jupyter.org
    * - jupyter-server-mathjax
@@ -1135,7 +1153,7 @@ Supported packages
      - JupyterHub: A multi-user server for Jupyter notebooks
      - https://jupyter.org
    * - jupyterlab
-     - 3.1.7
+     - 3.1.11
      - JupyterLab computational environment
      - https://jupyter.org
    * - jupyterlab-drawio
@@ -1150,6 +1168,118 @@ Supported packages
      - 0.32.2
      - A JupyterLab extension for version control using git
      - https://github.com/jupyterlab/jupyterlab-git.git
+   * - jupyterlab-language-pack-ca-ES
+     - 3.1.post0
+     - JupyterLab Catalan (Spain) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-cs-CZ
+     - 3.1.post0
+     - JupyterLab Czech (Czechia) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-da-DK
+     - 3.1.post0
+     - JupyterLab Danish (Denmark) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-de-DE
+     - 3.1.post0
+     - JupyterLab German (Germany) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-el-GR
+     - 3.1.post0
+     - JupyterLab Greek (Greece) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-es-ES
+     - 3.1.post0
+     - JupyterLab Spanish (Spain) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-et-EE
+     - 3.1.post0
+     - JupyterLab Estonian (Estonia) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-fi-FI
+     - 3.1.post0
+     - JupyterLab Finnish (Finland) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-fr-FR
+     - 3.1.post0
+     - JupyterLab French (France) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-he-IL
+     - 3.1.post0
+     - JupyterLab Hebrew (Israel) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-hu-HU
+     - 3.1.post0
+     - JupyterLab Hungarian (Hungary) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-hy-AM
+     - 3.1.post0
+     - JupyterLab Armenian (Armenia) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-id-ID
+     - 3.1.post0
+     - JupyterLab Indonesian (Indonesia) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-it-IT
+     - 3.1.post0
+     - JupyterLab Italian (Italy) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-ja-JP
+     - 3.1.post0
+     - JupyterLab Japanese (Japan) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-ko-KR
+     - 3.1.post0
+     - JupyterLab Korean (South Korea) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-lt-LT
+     - 3.1.post0
+     - JupyterLab Lithuanian (Lithuania) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-nl-NL
+     - 3.1.post0
+     - JupyterLab Dutch (Netherlands) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-no-NO
+     - 3.1.post0
+     - JupyterLab Norwegian Bokmål (Norway) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-pl-PL
+     - 3.1.post0
+     - JupyterLab Polish (Poland) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-pt-BR
+     - 3.1.post0
+     - JupyterLab Portuguese (Brazil) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-ro-RO
+     - 3.1.post0
+     - JupyterLab Romanian (Romania) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-ru-RU
+     - 3.1.post0
+     - JupyterLab Russian (Russia) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-tr-TR
+     - 3.1.post0
+     - JupyterLab Turkish (Turkey) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-uk-UA
+     - 3.1.post0
+     - JupyterLab Ukrainian (Ukraine) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-vi-VN
+     - 3.1.post0
+     - JupyterLab Vietnamese (Vietnam) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-zh-CN
+     - 3.1.post0
+     - JupyterLab Chinese (Simplified, China) Language Pack
+     - https://github.com/jupyterlab/language-packs
+   * - jupyterlab-language-pack-zh-TW
+     - 3.1.post0
+     - JupyterLab Chinese (Traditional, Taiwan) Language Pack
+     - https://github.com/jupyterlab/language-packs
    * - jupyterlab-lsp
      - 3.8.1
      - Coding assistance for JupyterLab with Language Server Protocol
@@ -1162,28 +1292,28 @@ Supported packages
      - 0.1.2
      - Pygments theme using JupyterLab CSS variables
      - http://jupyter.org
-   * - jupyterlab-quickopen
-     - 1.1.0
-     - Quickly open a file in JupyterLab by part of its name
-     - https://github.com/parente/jupyterlab-quickopen
    * - jupyterlab-server
-     - 2.7.1
+     - 2.8.1
      - A set of server components for JupyterLab and JupyterLab like applications .
      - https://jupyter.org
    * - jupyterlab-spellchecker
-     - 0.7.0
+     - 0.7.1
      - A spell checker for JupyterLab.
      - https://github.com/jupyterlab-contrib/spellchecker
+   * - jupyterlab-spreadsheet-editor
+     - 0.6.0
+     - JupyterLab spreadsheet (csv/tsv) editor
+     - https://github.com/krassowski/jupyterlab-spreadsheet-editor.git
    * - jupyterlab-tensorboard
      - 0.2.1
      - A JupyterLab extension for tensorboard.
      - https://github.com/chaoleili/jupyterlab_tensorboard
    * - jupyterlab-widgets
-     - 1.0.0
+     - 1.0.1
      - A JupyterLab extension.
      - https://github.com/jupyter-widgets/ipywidgets
    * - jupytext
-     - 1.11.4
+     - 1.12.0
      - Jupyter notebooks as Markdown documents, Julia, Python or R scripts
      - https://github.com/mwouts/jupytext
    * - kaggle
@@ -1194,6 +1324,10 @@ Supported packages
      - 0.2.1
      - Static image export for web-based visualization libraries with zero dependencies
      - -
+   * - keepalive
+     - 0.5
+     - urllib keepalive support for python
+     - https://github.com/wikier/keepalive
    * - keras
      - 2.6.0
      - TensorFlow Keras.
@@ -1215,7 +1349,7 @@ Supported packages
      - Keras models with TQDM progress bars in Jupyter notebooks
      - https://github.com/bstriner/keras-tqdm
    * - keyring
-     - 23.1.0
+     - 23.2.0
      - Store and access your passwords safely.
      - https://github.com/jaraco/keyring
    * - keyrings.alt
@@ -1223,15 +1357,15 @@ Supported packages
      - Alternate keyring implementations
      - https://github.com/jaraco/keyrings.alt
    * - kiwisolver
-     - 1.3.1
+     - 1.3.2
      - A fast implementation of the Cassowary constraint solver
      - https://github.com/nucleic/kiwi
    * - lark-parser
-     - 0.11.3
+     - 0.12.0
      - a modern parsing library
      - https://github.com/lark-parser/lark
    * - laspy
-     - 2.0.2
+     - 1.7.1
      - Native Python ASPRS LAS read/write library
      - https://github.com/laspy/laspy
    * - lazy-object-proxy
@@ -1239,7 +1373,7 @@ Supported packages
      - A fast and thorough lazy object proxy.
      - https://github.com/ionelmc/python-lazy-object-proxy
    * - leafmap
-     - 0.4.1
+     - 0.4.2
      - A Python package for geospatial analysis and interactive mapping in a Jupyter environment.
      - https://github.com/giswqs/leafmap
    * - legendgram
@@ -1311,9 +1445,9 @@ Supported packages
      - Python plotting package
      - https://matplotlib.org
    * - matplotlib-inline
-     - 0.1.2
+     - 0.1.3
      - Inline Matplotlib backend for Jupyter
-     - https://github.com/martinRenou/matplotlib-inline
+     - https://github.com/ipython/matplotlib-inline
    * - mccabe
      - 0.6.1
      - McCabe checker, plugin for flake8
@@ -1343,7 +1477,7 @@ Supported packages
      - The fastest markdown parser in pure Python
      - https://github.com/lepture/mistune
    * - mlflow
-     - 1.19.0
+     - 1.20.2
      - MLflow: A Platform for ML Development and Productionization
      - https://mlflow.org/
    * - momepy
@@ -1371,7 +1505,7 @@ Supported packages
      - Python library for arbitrary-precision floating-point arithmetic
      - http://mpmath.org/
    * - msal
-     - 1.13.0
+     - 1.14.0
      - The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
      - https://github.com/AzureAD/microsoft-authentication-library-for-python
    * - msal-extensions
@@ -1435,7 +1569,7 @@ Supported packages
      - The Jupyter Notebook format
      - http://jupyter.org
    * - nbgitpuller
-     - 0.10.1
+     - 1.0.2
      - Notebook Extension to do one-way synchronization of git repositories
      - https://github.com/jupyterhub/nbgitpuller
    * - nbsphinx
@@ -1463,7 +1597,7 @@ Supported packages
      - NetworKit is a toolbox for high-performance network analysis
      - https://networkit.github.io/
    * - networkx
-     - 2.6.2
+     - 2.6.3
      - Python package for creating and manipulating graphs and networks
      - https://networkx.org/
    * - nose
@@ -1487,7 +1621,7 @@ Supported packages
      - Fast N-dimensional aggregation functions with Numba
      - https://github.com/numbagg/numbagg
    * - numcodecs
-     - 0.9.0
+     - 0.9.1
      - A Python package providing buffer compression and transformation codecs for use in data storage and communication applications.
      - https://github.com/zarr-developers/numcodecs
    * - numexpr
@@ -1518,12 +1652,16 @@ Supported packages
      - 1.10.0
      - Open Neural Network Exchange
      - https://github.com/onnx/onnx
+   * - onnx-tf
+     - 1.9.0
+     - Tensorflow backend for ONNX (Open Neural Network Exchange).
+     - https://github.com/onnx/onnx-tensorflow/
    * - onnxconverter-common
      - 1.8.1
      - ONNX Converter and Optimization Tools
      - https://github.com/microsoft/onnxconverter-common
    * - onnxmltools
-     - 1.9.0
+     - 1.9.1
      - Converts Machine Learning models to ONNX
      - https://github.com/onnx/onnxmltools
    * - onnxruntime
@@ -1559,7 +1697,7 @@ Supported packages
      - Python bindings for ILM's OpenEXR image file format
      - http://www.excamera.com/sphinx/articles-openexr.html
    * - openpyxl
-     - 3.0.7
+     - 3.0.8
      - A Python library to read/write Excel 2010 xlsx/xlsm files
      - https://openpyxl.readthedocs.io
    * - openTSNE
@@ -1579,7 +1717,7 @@ Supported packages
      - A hyperparameter optimization framework
      - https://optuna.org/
    * - orange-canvas-core
-     - 0.1.21
+     - 0.1.22
      - Core component of Orange Canvas
      - http://orange.biolab.si/
    * - orange-widget-base
@@ -1603,7 +1741,7 @@ Supported packages
      - Extract vector and raster data from OSM.
      - https://github.com/yannforget/osmxtract
    * - OWSLib
-     - 0.24.1
+     - 0.25.0
      - OGC Web Service utility library
      - https://geopython.github.io/OWSLib
    * - packaging
@@ -1683,7 +1821,7 @@ Supported packages
      - Tiny 'shelve'-like database with concurrency support
      - https://github.com/pickleshare/pickleshare
    * - Pillow
-     - 8.3.1
+     - 8.3.2
      - Python Imaging Library (Fork)
      - https://python-pillow.org
    * - Pint
@@ -1699,11 +1837,11 @@ Supported packages
      - Command line utility to show dependency tree of packages
      - https://github.com/naiquevin/pipdeptree
    * - planetary-computer
-     - 0.3.0
+     - 0.4.1
      - Planetary Computer SDK for Python
      - -
    * - platformdirs
-     - 2.2.0
+     - 2.3.0
      - A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir".
      - https://github.com/platformdirs/platformdirs
    * - plotly
@@ -1711,7 +1849,7 @@ Supported packages
      - An open-source, interactive data visualization library for Python
      - https://plotly.com/python/
    * - pluggy
-     - 0.13.1
+     - 1.0.0
      - plugin and hook calling mechanisms for python
      - https://github.com/pytest-dev/pluggy
    * - ply
@@ -1723,7 +1861,7 @@ Supported packages
      - Methods and Functions for planar point pattern analysis
      - https://github.com/pysal/pointpats
    * - pooch
-     - 1.4.0
+     - 1.5.1
      - Pooch manages your Python library's sample data files: it automatically downloads and stores them in a local directory, with support for versioning and corruption checks.
      - https://github.com/fatiando/pooch
    * - portalocker
@@ -1735,7 +1873,7 @@ Supported packages
      - Cython hash table that trusts the keys are pre-hashed
      - https://github.com/explosion/preshed
    * - prettytable
-     - 2.1.0
+     - 2.2.0
      - A simple Python library for easily displaying tabular data in a visually appealing ASCII table format
      - https://github.com/jazzband/prettytable
    * - prometheus-client
@@ -1887,7 +2025,7 @@ Supported packages
      - passive checker of Python programs
      - https://github.com/PyCQA/pyflakes
    * - pygeos
-     - 0.10.1
+     - 0.10.2
      - GEOS wrapped in numpy ufuncs
      - https://github.com/pygeos/pygeos
    * - Pygments
@@ -1999,7 +2137,7 @@ Supported packages
      - Python library for working with Spatiotemporal Asset Catalog (STAC).
      - https://github.com/stac-utils/pystac-client.git
    * - pytest
-     - 6.2.4
+     - 6.2.5
      - pytest: simple powerful testing with Python
      - https://docs.pytest.org/en/latest/
    * - pytest-cov
@@ -2007,7 +2145,7 @@ Supported packages
      - Pytest plugin for measuring coverage.
      - https://github.com/pytest-dev/pytest-cov
    * - python-box
-     - 5.4.0
+     - 5.4.1
      - Advanced Python dictionaries with dot notation access
      - https://github.com/cdgriffith/Box
    * - python-certifi-win32
@@ -2091,7 +2229,7 @@ Supported packages
      - Python bindings for 0MQ
      - https://pyzmq.readthedocs.org
    * - qasync
-     - 0.18.1
+     - 0.21.0
      - Implementation of the PEP 3156 Event-Loop with Qt.
      - https://github.com/CabbageDevelopment/qasync
    * - QScintilla
@@ -2103,7 +2241,7 @@ Supported packages
      - Jupyter Qt console
      - http://jupyter.org
    * - QtPy
-     - 1.10.0
+     - 1.11.0
      - Provides an abstraction layer on top of the various Qt bindings (PyQt5, PyQt4 and PySide) and additional custom QWidgets.
      - https://github.com/spyder-ide/qtpy
    * - quantecon
@@ -2115,7 +2253,7 @@ Supported packages
      - QueryString parser for Python/Django that correctly handles nested dictionaries
      - https://github.com/bernii/querystring-parser
    * - quilt3
-     - 3.4.0
+     - 3.5.0
      - Quilt: where data comes together
      - https://github.com/quiltdata/quilt
    * - radio-beam
@@ -2123,7 +2261,7 @@ Supported packages
      - Operations for radio astronomy beams with astropy
      - http://radio_beam.readthedocs.org
    * - rasterio
-     - 1.2.6
+     - 1.2.8
      - Fast and direct raster I/O for use with Numpy and SciPy
      - https://github.com/mapbox/rasterio
    * - rasterstats
@@ -2147,7 +2285,7 @@ Supported packages
      - Python client for Redis key-value store
      - https://github.com/andymccurdy/redis-py
    * - regex
-     - 2021.8.21
+     - 2021.8.28
      - Alternative regular expression module, to replace re.
      - https://bitbucket.org/mrabarnett/mrab-regex
    * - requests
@@ -2203,7 +2341,7 @@ Supported packages
      - R-Tree spatial index for Python GIS
      - https://github.com/Toblerity/rtree
    * - ruamel.yaml
-     - 0.17.13
+     - 0.17.16
      - ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
      - https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
    * - ruamel.yaml.clib
@@ -2215,7 +2353,7 @@ Supported packages
      - Probability distributions mimicking Distrbutions.jl
      - https://github.com/QuantEcon/rvlib
    * - s3fs
-     - 2021.8.0
+     - 2021.8.1
      - Convenient Filesystem interface over S3
      - http://github.com/dask/s3fs/
    * - s3transfer
@@ -2251,7 +2389,7 @@ Supported packages
      - Python interface to GPU-powered libraries
      - https://github.com/lebedov/scikit-cuda/
    * - scikit-image
-     - 0.18.2
+     - 0.18.3
      - Image processing in Python
      - https://scikit-image.org
    * - scikit-learn
@@ -2311,7 +2449,7 @@ Supported packages
      - An utility that accesses files on a HTTP server and stores them locally for reuse.
      - https://github.com/biolab/serverfiles
    * - setuptools
-     - 57.4.0
+     - 57.5.0
      - Easily download, build, install, upgrade, and uninstall Python packages
      - https://github.com/pypa/setuptools
    * - setuptools-rust
@@ -2319,7 +2457,7 @@ Supported packages
      - Setuptools Rust extension plugin
      - https://github.com/PyO3/setuptools-rust
    * - setuptools-scm
-     - 6.0.1
+     - 6.3.2
      - the blessed package to manage your versions by scm tags
      - https://github.com/pypa/setuptools_scm/
    * - Shapely
@@ -2335,7 +2473,7 @@ Supported packages
      - Simple async process supervisor
      - https://github.com/yuvipanda/simpervisor
    * - simplejson
-     - 3.17.4
+     - 3.17.5
      - Simple, fast, extensible JSON encoder/decoder for Python
      - https://github.com/simplejson/simplejson
    * - sip
@@ -2351,7 +2489,7 @@ Supported packages
      - Convert scikit-learn models to ONNX
      - https://github.com/onnx/sklearn-onnx
    * - smart-open
-     - 5.2.0
+     - 5.2.1
      - Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
      - https://github.com/piskvorky/smart_open
    * - smmap
@@ -2395,15 +2533,19 @@ Supported packages
      - Additional lookup tables and data resources for spaCy
      - https://spacy.io
    * - spacy-transformers
-     - 1.0.4
+     - 1.0.6
      - spaCy pipelines for pre-trained BERT and other transformers
      - https://spacy.io
    * - spaghetti
      - 1.6.2
      - Analysis of Network-constrained Spatial Data
      - https://github.com/pysal/spaghetti
+   * - SPARQLWrapper
+     - 1.8.5
+     - SPARQL Endpoint interface to Python
+     - http://rdflib.github.io/sparqlwrapper
    * - sparse
-     - 0.12.0
+     - 0.13.0
      - Sparse n-dimensional arrays
      - https://github.com/pydata/sparse/
    * - spatialpandas
@@ -2471,7 +2613,7 @@ Supported packages
      - Database Abstraction Library
      - https://www.sqlalchemy.org
    * - sqlparse
-     - 0.4.1
+     - 0.4.2
      - A non-validating SQL parser.
      - https://github.com/andialbrecht/sqlparse
    * - srsly
@@ -2526,6 +2668,10 @@ Supported packages
      - 1.8.0
      - What-If Tool TensorBoard plugin.
      - https://whatif-tool.dev
+   * - tensorboardX
+     - 2.4
+     - TensorBoardX lets you watch Tensors Flow without Tensorflow
+     - https://github.com/lanpa/tensorboardX
    * - tensorflow
      - 2.4.1
      - TensorFlow is an open source machine learning framework for everyone.
@@ -2563,7 +2709,7 @@ Supported packages
      - ANSII Color formatting for output in terminal.
      - http://pypi.python.org/pypi/termcolor
    * - terminado
-     - 0.11.1
+     - 0.12.1
      - Tornado websocket backend for the Xterm.js Javascript terminal emulator library.
      - https://github.com/jupyter/terminado
    * - testpath
@@ -2590,8 +2736,12 @@ Supported packages
      - 1.1.0
      - TensorFlow-Slim: A lightweight library for defining, training and evaluating complex models in TensorFlow
      - https://github.com/google-research/tf-slim
+   * - tf2onnx
+     - 1.9.2
+     - Tensorflow to ONNX converter
+     - https://github.com/onnx/tensorflow-onnx
    * - thinc
-     - 8.0.8
+     - 8.0.10
      - A refreshing functional take on deep learning, compatible with your favorite libraries
      - https://github.com/explosion/thinc
    * - threadpoolctl
@@ -2599,7 +2749,7 @@ Supported packages
      - threadpoolctl
      - https://github.com/joblib/threadpoolctl
    * - tifffile
-     - 2021.8.8
+     - 2021.8.30
      - Read and write TIFF files
      - https://www.lfd.uci.edu/~gohlke/
    * - tobler
@@ -2643,7 +2793,7 @@ Supported packages
      - PyTorch Extension Library of Optimized Scatter Operations
      - https://github.com/rusty1s/pytorch_scatter
    * - torch-sparse
-     - 0.6.11
+     - 0.6.12
      - PyTorch Extension Library of Optimized Autograd Sparse Matrix Operations
      - https://github.com/rusty1s/pytorch_sparse
    * - torch-spline-conv
@@ -2663,11 +2813,11 @@ Supported packages
      - Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.
      - http://www.tornadoweb.org/
    * - tqdm
-     - 4.62.1
+     - 4.62.2
      - Fast, Extensible Progress Meter
      - https://tqdm.github.io
    * - traitlets
-     - 5.0.5
+     - 5.1.0
      - Traitlets Python configuration system
      - https://github.com/ipython/traitlets
    * - traitlets-pcse
@@ -2715,7 +2865,7 @@ Supported packages
      - Typer, build great CLIs. Easy to code. Based on Python type hints.
      - https://github.com/tiangolo/typer
    * - typing-extensions
-     - 3.7.4.3
+     - 3.10.0.2
      - Backported and Experimental Type Hints for Python 3.5+
      - https://github.com/python/typing/blob/master/typing_extensions/README.rst
    * - ujson
@@ -2751,7 +2901,7 @@ Supported packages
      - Interactive visualization in Python
      - http://vispy.org
    * - voila
-     - 0.2.10
+     - 0.2.12
      - Voilà turns Jupyter notebooks into standalone web applications
      - https://github.com/voila-dashboards/voila
    * - wasabi
@@ -2783,11 +2933,11 @@ Supported packages
      - A built-package format for Python
      - https://github.com/pypa/wheel
    * - whitebox
-     - 1.5.2
+     - 2.0.3
      - An advanced geospatial data analysis platform
      - https://github.com/giswqs/whitebox
    * - whiteboxgui
-     - 0.3.0
+     - 0.5.0
      - An interactive GUI for whitebox-tools in a Jupyter-based environment
      - https://github.com/giswqs/whiteboxgui
    * - Whoosh
@@ -2803,7 +2953,7 @@ Supported packages
      - Module for decorators, wrappers and monkey patching.
      - https://github.com/GrahamDumpleton/wrapt
    * - wurlitzer
-     - 3.0.0
+     - 3.0.2
      - Capture C-level output in context managers
      - https://github.com/minrk/wurlitzer
    * - wxPython
@@ -2823,7 +2973,7 @@ Supported packages
      - generic framework and xarray extension for computer model simulations
      - http://github.com/benbovy/xarray-simlab
    * - xarray-spatial
-     - 0.2.7
+     - 0.2.9
      - xarray-based spatial analysis tools
      - -
    * - xarrayutils
@@ -2871,7 +3021,7 @@ Supported packages
      - Python binding for xxHash
      - https://github.com/ifduyue/python-xxhash
    * - xyzservices
-     - 2021.8.1
+     - 2021.9.0
      - Source of XYZ tiles providers
      - https://github.com/geopandas/xyzservices
    * - yapf
@@ -2883,7 +3033,7 @@ Supported packages
      - Yet another URL library
      - https://github.com/aio-libs/yarl/
    * - zarr
-     - 2.8.3
+     - 2.9.5
      - An implementation of chunked, compressed, N-dimensional arrays for Python.
      - https://github.com/zarr-developers/zarr-python
    * - zict
@@ -2900,4 +3050,4 @@ Supported packages
      - https://github.com/zopefoundation/zope.interface
 
 
-Last updated: 23/08/2021
+Last updated: 12/09/2021
