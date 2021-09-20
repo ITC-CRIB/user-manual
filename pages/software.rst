@@ -14,6 +14,7 @@ Supported software packages
    r-packages
    system-packages/index
    jupyterlab-extensions/index
+   custom-built
 
 
 Why xxx is not available?
