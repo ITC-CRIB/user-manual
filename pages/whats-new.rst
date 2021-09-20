@@ -5,6 +5,165 @@ What's new
 2021
 ----
 
+2021/09/12
+^^^^^^^^^^
+
+*
+  Jetson units are upgraded to JetPack 4.6 (L4T 32.6.1)
+
+
+* 
+  New Packages
+
+
+  * ase: 3.22.0
+  * astor: 0.8.1
+  * autopage: 0.4.0
+  * cytoolz: 0.11.0
+  * jupyterlab-language-pack-ca-ES: 3.1.post0
+  * jupyterlab-language-pack-cs-CZ: 3.1.post0
+  * jupyterlab-language-pack-da-DK: 3.1.post0
+  * jupyterlab-language-pack-de-DE: 3.1.post0
+  * jupyterlab-language-pack-el-GR: 3.1.post0
+  * jupyterlab-language-pack-es-ES: 3.1.post0
+  * jupyterlab-language-pack-et-EE: 3.1.post0
+  * jupyterlab-language-pack-fi-FI: 3.1.post0
+  * jupyterlab-language-pack-fr-FR: 3.1.post0
+  * jupyterlab-language-pack-he-IL: 3.1.post0
+  * jupyterlab-language-pack-hu-HU: 3.1.post0
+  * jupyterlab-language-pack-hy-AM: 3.1.post0
+  * jupyterlab-language-pack-id-ID: 3.1.post0
+  * jupyterlab-language-pack-it-IT: 3.1.post0
+  * jupyterlab-language-pack-ja-JP: 3.1.post0
+  * jupyterlab-language-pack-ko-KR: 3.1.post0
+  * jupyterlab-language-pack-lt-LT: 3.1.post0
+  * jupyterlab-language-pack-nl-NL: 3.1.post0
+  * jupyterlab-language-pack-no-NO: 3.1.post0
+  * jupyterlab-language-pack-pl-PL: 3.1.post0
+  * jupyterlab-language-pack-pt-BR: 3.1.post0
+  * jupyterlab-language-pack-ro-RO: 3.1.post0
+  * jupyterlab-language-pack-ru-RU: 3.1.post0
+  * jupyterlab-language-pack-tr-TR: 3.1.post0
+  * jupyterlab-language-pack-uk-UA: 3.1.post0
+  * jupyterlab-language-pack-vi-VN: 3.1.post0
+  * jupyterlab-language-pack-zh-CN: 3.1.post0
+  * jupyterlab-language-pack-zh-TW: 3.1.post0
+  * jupyterlab-spreadsheet-editor: 0.6.0
+  * keepalive: 0.5
+  * onnx-tf: 1.9.0
+  * SPARQLWrapper: 1.8.5
+  * tensorboardX: 2.4
+  * tf2onnx: 1.9.2
+
+* 
+  Downgraded Packages
+
+
+  * laspy: 2.0.2 -> 1.7.1
+
+* 
+  Upgraded Packages
+
+
+  * aiobotocore: 1.4.0 -> 1.4.1
+  * anyio: 3.3.0 -> 3.3.1
+  * argon2-cffi: 20.1.0 -> 21.1.0
+  * astroid: 2.7.2 -> 2.7.3
+  * beautifulsoup4: 4.9.3 -> 4.10.0
+  * black: 21.7b0 -> 21.8b0
+  * bleach: 4.0.0 -> 4.1.0
+  * cliff: 3.8.0 -> 3.9.0
+  * cloudpickle: 1.6.0 -> 2.0.0
+  * colorlog: 5.0.1 -> 6.4.1
+  * comet-ml: 3.14.1 -> 3.15.4
+  * cryptography: 3.4.7 -> 3.4.8
+  * cupy: 9.3.0 -> 9.4.0
+  * dask: 2021.8.1 -> 2021.9.0
+  * debugpy: 1.4.1 -> 1.4.3
+  * decorator: 5.0.9 -> 5.1.0
+  * distributed: 2021.8.1 -> 2021.9.0
+  * docker: 5.0.0 -> 5.0.2
+  * dulwich: 0.20.24 -> 0.20.25
+  * earthengine-api: 0.1.279 -> 0.1.282
+  * eodag-sentinelsat: 0.4.0 -> 0.4.1
+  * everett: 2.0.0 -> 2.0.1
+  * fsspec: 2021.7.0 -> 2021.8.1
+  * gcsfs: 2021.7.0 -> 2021.8.1
+  * geemap: 0.8.18 -> 0.9.0
+  * geetools: 0.6.11 -> 0.6.14
+  * GeoAlchemy2: 0.9.3 -> 0.9.4
+  * glue-core: 1.2.0 -> 1.2.1
+  * google-auth-oauthlib: 0.4.5 -> 0.4.6
+  * google-cloud-storage: 1.42.0 -> 1.42.1
+  * imageio-ffmpeg: 0.4.4 -> 0.4.5
+  * importlib-metadata: 4.6.4 -> 4.8.1
+  * ipydatagrid: 1.1.3 -> 1.1.5
+  * ipyfilechooser: 0.4.4 -> 0.5.0
+  * ipykernel: 6.2.0 -> 6.4.1
+  * ipython: 7.26.0 -> 7.27.0
+  * ipywidgets: 7.6.3 -> 7.6.4
+  * jupyter-archive: 3.0.1 -> 3.0.3
+  * jupyter-server: 1.10.2 -> 1.11.0
+  * jupyterlab: 3.1.9 -> 3.1.11
+  * jupyterlab-server: 2.7.2 -> 2.8.1
+  * jupyterlab-spellchecker: 0.7.0 -> 0.7.1
+  * jupyterlab-widgets: 1.0.0 -> 1.0.1
+  * jupytext: 1.11.4 -> 1.12.0
+  * keyring: 23.1.0 -> 23.2.0
+  * kiwisolver: 1.3.1 -> 1.3.2
+  * lark-parser: 0.11.3 -> 0.12.0
+  * leafmap: 0.4.1 -> 0.4.2
+  * matplotlib-inline: 0.1.2 -> 0.1.3
+  * mlflow: 1.19.0 -> 1.20.2
+  * msal: 1.13.0 -> 1.14.0
+  * nbgitpuller: 0.10.2 -> 1.0.2
+  * networkx: 2.6.2 -> 2.6.3
+  * numcodecs: 0.9.0 -> 0.9.1
+  * onnxmltools: 1.9.0 -> 1.9.1
+  * openpyxl: 3.0.7 -> 3.0.8
+  * orange-canvas-core: 0.1.21 -> 0.1.22
+  * OWSLib: 0.24.1 -> 0.25.0
+  * Pillow: 8.3.1 -> 8.3.2
+  * planetary-computer: 0.3.0 -> 0.4.1
+  * platformdirs: 2.2.0 -> 2.3.0
+  * pluggy: 0.13.1 -> 1.0.0
+  * pooch: 1.4.0 -> 1.5.1
+  * prettytable: 2.1.0 -> 2.2.0
+  * pygeos: 0.10.1 -> 0.10.2
+  * pytest: 6.2.4 -> 6.2.5
+  * python-box: 5.4.0 -> 5.4.1
+  * qasync: 0.18.1 -> 0.21.0
+  * QtPy: 1.10.0 -> 1.11.0
+  * quilt3: 3.4.0 -> 3.5.0
+  * rasterio: 1.2.6 -> 1.2.8
+  * regex: 2021.8.21 -> 2021.8.28
+  * ruamel.yaml: 0.17.14 -> 0.17.16
+  * s3fs: 2021.8.0 -> 2021.8.1
+  * scikit-image: 0.18.2 -> 0.18.3
+  * setuptools: 57.4.0 -> 57.5.0
+  * setuptools-scm: 6.0.1 -> 6.3.2
+  * simplejson: 3.17.4 -> 3.17.5
+  * smart-open: 5.2.0 -> 5.2.1
+  * spacy-transformers: 1.0.4 -> 1.0.6
+  * sparse: 0.12.0 -> 0.13.0
+  * sqlparse: 0.4.1 -> 0.4.2
+  * terminado: 0.11.1 -> 0.12.1
+  * thinc: 8.0.8 -> 8.0.10
+  * tifffile: 2021.8.8 -> 2021.8.30
+  * torch-sparse: 0.6.11 -> 0.6.12
+  * tqdm: 4.62.1 -> 4.62.2
+  * traitlets: 5.0.5 -> 5.1.0
+  * typing-extensions: 3.7.4.3 -> 3.10.0.2
+  * voila: 0.2.10 -> 0.2.12
+  * whitebox: 1.5.2 -> 2.0.3
+  * whiteboxgui: 0.3.0 -> 0.5.0
+  * wurlitzer: 3.0.0 -> 3.0.2
+  * xarray-spatial: 0.2.7 -> 0.2.9
+  * xyzservices: 2021.8.1 -> 2021.9.0
+  * zarr: 2.8.3 -> 2.9.5
+
+
+
 2021/08/22
 ^^^^^^^^^^
 
