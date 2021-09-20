@@ -151,6 +151,23 @@ MATLAB (R2021a), Simulink, and selected toolboxes are available on the platform 
     </br>
 
 
+Use Dask 
+--------
+
+.. toctree::
+   :maxdepth: 3
+
+   how-to-dask.ipynb
+
+
+Use HDFS service
+----------------
+
+.. toctree::
+   :maxdepth: 3
+
+   how-to-hdfs.ipynb
+
 
 Install JupyterLab on Windows
 -----------------------------
