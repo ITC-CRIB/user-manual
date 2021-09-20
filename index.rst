@@ -14,9 +14,9 @@ This manual contains various information about the platform, such as how to use 
 
    pages/platform
    pages/software
+   training-resources/README.md
    pages/how-to-dask.ipynb
    pages/how-to-hdfs.ipynb
-   pages/training-resources/index
    pages/shared-workspace-manual/index
    pages/whats-new.md
    pages/work-in-progress.md

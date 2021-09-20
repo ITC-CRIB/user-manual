@@ -1,0 +1,5 @@
+[submodule "training-resources"]
+	path = training-resources
+	url = https://github.com/ITC-CRIB/training-resources.git
+	branch = main
+
